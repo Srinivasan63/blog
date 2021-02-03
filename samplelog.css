@@ -1,0 +1,123 @@
+
+body
+{
+	background: linear-gradient(115deg, #EC235D 10%, #23ECD7 90%);
+	background-size: cover;
+	
+}
+.Enter
+{
+	background: white;
+	padding: 40px;
+	width: 850px;
+	margin: auto;
+	margin-top: 40px;
+	height: 470px;
+	margin-left: 190px;
+	border-radius: 9px;
+	box-shadow: 6px 6px 10px rgba(0,0,0,0.1);
+	box-shadow:inset -6px -6px 9px 1px #C8F6F9 ,inset 6px 6px 11px 3px #FDDCEB;
+
+
+}
+.wave{
+	height:300px;
+	width: 400px;
+	left: 0;
+	margin-top: 100px;
+	margin-left: 60px;
+	
+}
+.vl{
+	position: absolute;
+	border-left: 2px solid lightgray;
+	height:360px;
+	left: 0;
+	margin-top: 70px;
+	margin-left: 730px;
+}
+
+form
+{
+	width: 240px;
+	text-align: center;
+
+}
+ input
+{
+	width: 240px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: black;
+	border-color: black;
+	margin-left: 60px;
+}
+input[type=submit]
+{
+	border: none;
+	width: 190px;
+	color: white;
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px ;
+	border-radius: 23px;
+	cursor: pointer;
+	font-weight: bold;
+  	background: -webkit-linear-gradient(left, #56d8e4, #EC235D);
+  	transition: all 0.4s;
+  	box-shadow: 5px 5px 10px gray;
+  	margin-left: 10px;
+  	
+}
+input[type=submit]:hover
+{
+	background:  -webkit-linear-gradient(right,#56d8e4, #EC235D);
+	box-shadow: 1px 1px 7px gray;
+	font-size: 17px;
+	letter-spacing: 5px;
+	
+}
+
+.container{
+	margin-left: 490px;
+
+}
+a
+{
+	color: #491287 ;
+	text-decoration: blink;
+	cursor: pointer;
+
+}
+a:hover
+{
+	color: #FF5733 ;
+	text-decoration: underline;
+
+}
+::placeholder{
+	color: black;
+	opacity: 0.4;
+	font-family:cursive;
+
+
+}
+.fa{
+	margin-top:15px;
+	margin-left: -30px;
+}
+.i{
+	display: flex;
+}
+.i:hover{
+	color:blue; 
+}
+.show{
+	cursor: pointer;
+}

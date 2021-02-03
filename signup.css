@@ -1,0 +1,111 @@
+body{
+	background: linear-gradient(90deg, #EC235D 10%,#23ECD7  90%);
+	background-size: cover;
+	font-family: 'Allerta Stencil';
+}
+form{
+	background: #FAFCFB ;
+	/*background: transparent;*/
+	padding: 40px;
+	margin:auto;
+	width: 280.5px;
+	margin-top: 50px;
+	height: 590px;
+	border-radius: 5px;
+	box-shadow:inset -6px -6px 9px 1px #C8F6F9 ,inset 6px 6px 11px 3px #FDDCEB, -3px -3px 12px #424443 ;
+	/*box-shadow:inset -1px -1px 3px 3px #E5E8E7,3px 3px 12px #EFE56E, -3px -3px 12px #424443 ;*/
+	
+}
+label{
+	font-size: 25px;
+	text-align: center;
+}
+input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: black;
+	border-color: black;
+}
+input[type=text]{
+	width:280px;
+	height: 50px;
+}
+input[type=password]{
+	width:280px;
+	height:50px;
+}
+
+input[type=button]{
+	
+	width: 100px;
+	height: 40px;
+	background-color:#5598D6 ;
+	border: none ;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 16px;
+	box-shadow: inset -3px -3px 13px #2274C1  , 1px 1px 7px #2274C1 , 4px 4px 7px #424443;
+	letter-spacing: 1.1px;
+}
+input[type=submit]{
+	font-family: 'Allerta Stencil';
+	width: 100px;
+	height: 40px;
+	margin-left: 70px;
+	background-color:#5598D6 ;
+	border: none ;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 16px;
+	box-shadow: inset -3px -3px 13px #2274C1  , 1px 1px 7px #2274C1 , 4px 4px 7px #424443;
+	letter-spacing: 1.1px;
+	
+}
+input[type=button]:hover{
+	box-shadow: inset 4px 4px 13px #2274C1 , 1px 1px 3px #2274C1 , 1px 1px 4px #424443;
+	font-size: 15.5px;
+}
+
+input[type=submit]:hover{
+	box-shadow: inset 4px 4px 13px #2274C1 , 1px 1px 3px #2274C1 , 1px 1px 4px #424443;
+	font-size: 15.5px;
+}
+
+::placeholder{
+	color: black;
+	opacity: 0.4;
+	font-family:cursive;
+
+}
+.header{
+	display: flex;
+}
+
+.fa{
+	margin-top:15px;
+	margin-left: -30px;
+}
+.i{
+	display: flex;
+}
+.i:hover{
+	color:blue; 
+}
+.show{
+	cursor: pointer;
+}
+.fa-user-plus{
+	color: #66131F ;
+	margin-left: 48px;
+	margin-top: 7px;
+
+}
+.msg{
+	font-family: none;
+}

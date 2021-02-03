@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Front Page</title>
+<meta charset="utf-8">
+<link href="samplelog.css" type="text/css" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body >
+<div  >
+<form class="Enter" action="wishes.html" method="post" name="form" onsubmit ="return validateMail()" >
+	<img class="wave" src="https://user-images.githubusercontent.com/37474/59981504-9b27d980-95da-11e9-8742-bc47f95a684b.png" align="left">
+	<div class="vl" ></div>
+  <h2 style="color: #66131F ; font-size: 45px; font-family: 'Niconne', cursive; margin-left: 490px;">Student Login</h2><br>
+
+  <div class="container" >
+  <div class="i mail">
+        <br><input type="text" id="email" name="Email"  placeholder="Username/E-mail" required>
+        <i class="fa fa-envelope"></i>
+      </div><br>
+
+      <div class="i show" >
+        <input type="Password" id="pswd1"  minlength="8" maxlength="12"placeholder="Password"  required >
+        <i id="pass-status" class="fa fa-lock" aria-hidden="true" onClick="viewPassword()"></i>
+
+      </div><br>
+
+      
+
+  <br><br>
+  <input type="submit" value="LOG IN"><br><br><br><br><br>
+
+  <label style=" font-size: 18px;">Dont't have an account? </label> <a href="signup.html"><b style=" font-size: 21px;"> Register</b></a>
+
+  </div>
+</form>
+</div>
+<script src="validating.js"></script>
+</body>
+</html>

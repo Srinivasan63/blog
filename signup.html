@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text\html; charset=utf-8"/>
+<title> signup page</title>
+<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+<link href="signup.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+	<form action="samplelog.html" method="POST" onsubmit ="return validateForm()" >
+
+		<div class="header">
+		<label><b style="color: #66131F ; font-size: 50px; font-family: 'Niconne', cursive; ">Register</b></label><i class="fa fa-user-plus" style="font-size:50px;"></i></div>
+		<br><hr color="#C4BFC1" style="margin-left: -40px; width:358.49px;"><br>
+		<div class="box">
+			<div class="i name" >
+			<input type="text" id="name" onkeyup ="CheckName()" name="fname" placeholder="Name" required="">
+			<i class="fa fa-user"></i>
+			</div><span class="msg" id="msg1" style="color:red; font-size: 18px;"></span><br>
+
+			<div class="i rno">
+			<input type="text" name="rno"  title="Eg: 18cse73" placeholder="Roll Number"required="">
+			<i class="fa fa-id-badge"></i>
+			</div><br>
+
+			<div class="i mail" >
+				<br><input type="text" id="email" title="Eg: abc@xyz.efg"  placeholder="E-mail" required>
+				<i class="fa fa-envelope"></i><br>
+			</div><br>
+
+			<div class="i show" >
+				<input type="Password" id="pswd1" title="atleast 1 numeric,1 special char,1 uppercase,1 lowercase" onkeyup ="CheckPasswordStrength()" minlength="8" maxlength="12"placeholder="Password"  required>
+				<i id="pass-status" class="fa fa-lock" aria-hidden="true" onClick="viewPassword()"></i> 
+			</div><span class="msg" id="msg2" style="color:red; font-size: 18px;"></span><br>
+
+			<input type="Password" id="pswd2" title="repeat the password" minlength="8" maxlength="12" placeholder="Confirm Password"  required><br>
+			<br>Gender: <input type="radio" name="Gender" value="male" required>Male <input type="radio" name="Gender" value="female">Female<br><br><br>
+		</div>
+		<a  href="samplelog.html"><input type="button" value="Back"></a><input type="submit" value="Sign Up" class="button">
+	</form>
+	<script src="validating.js"></script>
+</body>
+</html>
